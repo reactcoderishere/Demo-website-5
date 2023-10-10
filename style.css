@@ -1,0 +1,210 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+.hero-image {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
+    url("./pexels-igor-haritanovich-1695052.jpg");
+  height: 300vh;
+
+  /* Position and center the image to scale nicely on all screens */
+  /* background-position: center; */
+  /* background-repeat: no-repeat; */
+  background-size: cover;
+  position: relative;
+}
+.hero-text {
+  /* text-align: center; */
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  margin-top: 8rem;
+  color: white;
+}
+.business {
+  font-size: 7rem;
+}
+.NAV {
+  margin-top: 5rem;
+  padding: 4rem;
+  background-color: rgba(23, 11, 0, 0.672);
+}
+.for-flex {
+  position: absolute;
+}
+
+.for-text {
+  position: absolute;
+  top: 40%;
+  left: 5%;
+  right: 0;
+  bottom: 0;
+  height: 25rem;
+  width: 40rem;
+  background-color: rgb(245, 233, 219);
+  border-radius: 1rem;
+}
+.header-text {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.for-image {
+  position: absolute;
+  top: 38%;
+  /* left: 0; */
+  right: 5%;
+  bottom: 0;
+}
+.for-image img {
+  width: 60rem;
+  border-radius: 1rem;
+}
+.every {
+  margin-left: 2rem;
+  font-size: 1.5rem;
+  color: rgb(181, 180, 180);
+}
+.fresh {
+  font-size: 1.5rem;
+  font-weight: bold;
+  color: black;
+}
+.worth {
+  font-size: 3.5rem;
+  font-weight: 400;
+  color: rgb(82, 76, 76);
+}
+.header-text {
+  margin-top: 2rem;
+}
+
+article {
+  position: absolute;
+  width: 100%;
+  height: 30rem;
+  background-color: rgb(230, 178, 119);
+  /* top: 68%; */
+  left: 0;
+  right: 0;
+  bottom: 5%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.article-text {
+  height: 20rem;
+  width: 50rem;
+  background-color: rgb(246, 223, 198);
+  border-radius: 1rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 2rem;
+  border: 1px solid rgba(23, 11, 0, 0.672);
+}
+.promise{
+    font-size: 1.5rem;
+    font-weight: bold;
+    color: black;
+}
+.you{
+    font-size: 3.5rem;
+    font-weight: 400;
+    color: rgb(82, 76, 76);
+}
+.when{
+    margin-left: 2rem;
+    font-size: 1.1rem;
+    color: rgb(181, 180, 180);
+}
+
+@media screen and (max-width: 768px) {
+  .business {
+    font-size: 4rem;
+  }
+  .for-text {
+    position: absolute;
+    top: 50%;
+    left: 5%;
+    right: 0;
+    bottom: 0;
+    height: 20rem;
+    width: 18rem;
+    background-color: rgb(245, 233, 219);
+    border-radius: 1rem;
+  }
+  .every {
+    margin-left: 2rem;
+    font-size: 1rem;
+    color: rgb(181, 180, 180);
+  }
+  .fresh {
+    font-size: 1rem;
+    font-weight: bold;
+    color: black;
+  }
+  .worth {
+    font-size: 2rem;
+    font-weight: 400;
+    color: rgb(82, 76, 76);
+  }
+  .for-image img {
+    width: 30rem;
+    border-radius: 1rem;
+  }
+  .promise{
+    font-size: 1rem;
+    font-weight: bold;
+    color: black;
+}
+.you{
+    font-size: 2rem;
+    font-weight: 400;
+    color: rgb(82, 76, 76);
+}
+.when{
+    margin-left: 1rem;
+    font-size: 1rem;
+    color: rgb(181, 180, 180);
+}
+.article-text {
+    height: 20rem;
+    width: 19rem;
+    background-color: rgb(246, 223, 198);
+    border-radius: 1rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 2rem;
+    border: 1px solid rgba(23, 11, 0, 0.672);
+  }
+  article {
+    position: absolute;
+    width: 100%;
+    height: 15rem;
+    background-color: rgb(230, 178, 119);
+    /* top: 68%; */
+    left: 0;
+    right: 0;
+    bottom: 5%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .NAV {
+    margin-top: 1rem;
+    padding: 1rem;
+    background-color: rgba(23, 11, 0, 0.672);
+  }
+ 
+ 
+  
+
+}
